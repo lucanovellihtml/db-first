@@ -1,0 +1,14 @@
+name_tabella: auto
+
+id                  INT             UNSIGNED    AUTO_INCREMENT      PRIMARY_KEY
+targa               VARCHAR(28)     NOT NULL
+anno_fabbricazione  DATE            NOT NULL
+chilometri          INT             NOT NULL
+carburante          VARCHAR(20)     NOT NULL
+cilindrata          SMALLINT        NOT NULL
+cambio              VARCHAR(10)     NOT NULL
+marchio             TEXT            NOT NULL
+modello             VARCHAR(10)     NOT NULL
+potenza             DECIMAL(6,2)    NOT NULL
+costo               DECIMAL(2,2)    NOT NULL
+disponibilità       BOOLEAN         NOT NULL
