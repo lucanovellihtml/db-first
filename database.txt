@@ -11,4 +11,4 @@ marchio             TEXT            NOT NULL
 modello             VARCHAR(10)     NOT NULL
 potenza             DECIMAL(6,2)    NOT NULL
 costo               DECIMAL(2,2)    NOT NULL
-disponibilità       BOOLEAN         NOT NULL
+disponibilità       BOOLEAN         NOT NULL    DEFAULT(true)
